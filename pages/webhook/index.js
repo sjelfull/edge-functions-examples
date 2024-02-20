@@ -7,26 +7,12 @@ export default {
     return `
     <section>
       <h1>Webhook validation</h1>
-      <pre><code>import type { Context } from "@netlify/edge-functions";
-
-export default async (request: Request, context: Context) => {
-  return Response.json({ hello: "world" });
-};
-</code></pre>
-      <h2>See this in action</h2>
       <ul>
-        <li><a href="/webhook">View the response from the Edge Function</a></li>
         <li><form action="/webhook" method="post">
         <button type="submit">Send webhook</button>
         <div id="response-area"></div>
       </form></li>
-        <li>${repoLink("webhook.ts")}</li>
       </ul>
-
-      <div class="protip">
-        <h2>Pro tip!</h2>
-        <p>Need to return text/html from an Edge Function? Check out the <a href="/example/hello">Hello, world</a> example.</p>
-      </div>
     </section>
     <script type="module">
     import {encodeSignatureHeader} from 'https://esm.sh/@sanity/webhook'

@@ -1,0 +1,24 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  '@netlify/edge-functions':
+    specifier: ^2.3.1
+    version: 2.3.1
+  '@sanity/webhook':
+    specifier: ^4.0.1
+    version: 4.0.1
+
+packages:
+
+  /@netlify/edge-functions@2.3.1:
+    resolution: {integrity: sha512-3sJzP1DmzMZppkAZpUixdHA4ryiKD1NSpLMRViYStE9Oe10rZPSnM8yl6A90vTBqCYvbAF5S7W9oPf2ucrCCIQ==}
+    dev: false
+
+  /@sanity/webhook@4.0.1:
+    resolution: {integrity: sha512-hswDXWD6Ru2qz0oMlEOathKspEyoc/jNFgAGvQVWQ4sbQDjVveMkLimQO+4FNWwi1AMYdcEmj+XmCzrPKIuvWA==}
+    engines: {node: '>=20.0.0'}
+    dev: false

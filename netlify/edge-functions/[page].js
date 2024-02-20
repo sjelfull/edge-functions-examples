@@ -13,6 +13,7 @@ import pageInclude from "../../pages/include/index.js";
 import pageRewrite from "../../pages/rewrite/index.js";
 import pageGeolocation from "../../pages/geolocation/index.js";
 import pageJson from "../../pages/json/index.js";
+import pageWebhook from "../../pages/webhook/index.js";
 import pageSetRequestHeader from "../../pages/set-request-header/index.js";
 import pageSetResponseHeader from "../../pages/set-response-header/index.js";
 import pageMethod from "../../pages/method/index.js";
@@ -39,6 +40,7 @@ const pages = {
   transform: pageTransform,
   include: pageInclude,
   json: pageJson,
+  webhook: pageWebhook,
   "set-response-header": pageSetResponseHeader,
   "set-request-header": pageSetRequestHeader,
   method: pageMethod,

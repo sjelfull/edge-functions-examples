@@ -15,6 +15,7 @@ export default {
       <h3 class="home__sectionHeader">Responses</h3>
       <ul class="home__sectionList">
         <li class="home__sectionListItem"><a class="home__sectionListItemLink" href="/example/hello">Hello world</a></li>
+        <li class="home__sectionListItem"><a class="home__sectionListItemLink" href="/example/webhook">Webhook</a></li>
         <li class="home__sectionListItem"><a class="home__sectionListItemLink" href="/example/json">Return JSON</a></li>
         <li class="home__sectionListItem"><a class="home__sectionListItemLink" href="/example/image">Return an image</a></li>
       </ul>
